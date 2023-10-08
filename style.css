@@ -1,0 +1,126 @@
+/* general Stylesheet */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: aliceblue;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.content {
+    padding: 3%;
+    max-width: 1150px;
+    margin: 0px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    padding-top: 2%;
+}
+
+/* containers & boxes */
+.content {
+    padding: 3%;
+    max-width: 1150px;
+    margin: 50px auto;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    padding-top: 2%;
+}
+
+.standard {
+    width: 100%;
+}
+
+
+/* text & links */
+.text_right {
+    text-align: right;
+}
+
+
+/* buttons */
+.button {
+    color: black;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 10px;
+    cursor: pointer;
+    width: max-content;
+}
+
+.button:hover {
+    color: gray;
+    border-color: gray;
+}
+
+
+/* Stylesheet for header */
+
+header {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    width: 100%;
+    padding: 1%;
+    background-color: #205C29;
+    color: white;
+    position: fixed;
+    top: 0;
+    height: 80px;
+}
+
+.header-content {
+    padding: 3%;
+    max-width: 1150px;
+    margin: 50px auto;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    color: aliceblue;
+}
+
+header img {
+    height: 80px;
+    width: auto;
+    float: right;
+}
+
+.header-titel {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+
+/* Stylesheet for footer */
+
+footer {
+    background-color: #87C9A5;
+    padding: 0%;
+    max-width: 100%;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+footer hr {
+    border-color: black;
+}
